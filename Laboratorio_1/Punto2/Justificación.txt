@@ -1,0 +1,17 @@
+El motivo de la experiencia es poder ver la utilidad de la criptografía basada en identidades.
+La problemática se encuentra en Encriptar una identidad y ver cómo puede extenderse su uso para
+ser una llave pública, aún así, la razón de la experiencia es mostrar una manera intuitiva de
+poder Encriptar una cadena de texto por medio de relaciones jerárquicas cómo árboles, para ello
+haremos uso de los valores ASCII (código estándar para intercambio de información) cómo una
+referencia comparativa entre caracteres. 
+Por ejemplo, si queremos Encriptar la palabra moises, empezamos insertando los primeros 3
+carácteres al árbol binario, la "m" sería el nodo raíz y luego la "o" se inserta después. Segun 
+el código ASCII "o">"m" y pues se asigna al lado derecho de la raíz, de manera análoga comparamos
+con la letra "i" y pues dado que su valor es menor que el de "m" se asigna al lado izquierdo y
+realizamos este proceso de manera iterativa hasta Encriptar toda la oración.
+El interés de abordar esta problemática es ver una manera práctica y curiosa de cómo podemos asignar
+una encriptación basada en identidades. Es decir, podemos acceder a cada uno de los caracteres de
+nuestro string por medio de una estructura de árbol, lo cual facilita el entendimiento de la temática.
+Habría que considerar si está implementación es óptima a grandes escalas o si es implementada en otro
+tipo de métodos pero esto se extiende más allá del alcance de la experiencia
+
